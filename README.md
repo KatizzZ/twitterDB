@@ -1,2 +1,2 @@
 # twitterDB
-Fetches tweets from twiter based on hashtags
+Fetches tweets from twitter based on hashtags
