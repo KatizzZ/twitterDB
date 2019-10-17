@@ -10,20 +10,16 @@ Needs few things before this to get started -
    - consumer_secret
    - access_token
    - access_token_secret
-2. Mysql local database ( for ex. in my case it is 'twitterdb' )
-    create table in your database accordingly with column names - 
-      -username: VARCHAR(255)
-      -created_at: VARCHAR(45)
-      -tweet: TEXT
-      -retweet_count: INT(11)
-      -location: VARCHAR(100)
-      -place: VARCHAR(100)
+2. Mysql local database ( for ex. in my case it is 'twitterdb' ) create table in your database accordingly with column names - 
+      - username: VARCHAR(255)
+      - created_at: VARCHAR(45)
+      - tweet: TEXT
+      - retweet_count: INT(11)
+      - location: VARCHAR(100)
+      - place: VARCHAR(100)
+  
   Query -------
-    CREATE TABLE `Golf` (
-        `username` varchar(255) DEFAULT NULL,
-        `created_at` varchar(45) DEFAULT NULL,
-        `tweet` varchar(255) DEFAULT NULL,
-        `retweet_count` int(11) DEFAULT NULL,
-        `location` varchar(100) DEFAULT NULL,
-        `place` varchar(100) DEFAULT NULL
-    )
+  
+  CREATE TABLE `Golf` ( `username` varchar(255) DEFAULT NULL, `created_at` varchar(45) DEFAULT NULL,
+        `tweet` varchar(255) DEFAULT NULL,  `retweet_count` int(11) DEFAULT NULL,
+        `location` varchar(100) DEFAULT NULL,  `place` varchar(100) DEFAULT NULL )
