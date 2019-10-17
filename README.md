@@ -1,8 +1,8 @@
 # twitterDB
 
-Mainly two python scripts (twitterdb.py,tweetsSentiments.py) , Run first twitterdb.py then tweetsSentiments.py 
+Mainly two python scripts (twitter.py,tweetsSentiments.py) , Run first twitter.py then tweetsSentiments.py 
 
-    - twitterdb.py -Fetches tweets from twitter based on hashtags and stores them into database
+    - twitter.py -Fetches tweets from twitter based on hashtags and stores them into database
     - tweetsSentiments.py -Fetches tweets from Database and calculate Sentiments
 
 Need few things before this to get started
@@ -11,7 +11,7 @@ Need few things before this to get started
     - A MySQL database
     - The Tweepy and mysql-connector Python Libraries
     
-Run twitter.py file an PythonRich IDE - 
+Run twitter.py file an Python IDE - 
 
 1. Account at https://developer.twitter.com then create an app to access these four keys,
    - consumer_key
