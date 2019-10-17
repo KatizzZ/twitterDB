@@ -1,6 +1,6 @@
 # twitterDB
 
-Mainly two python scripts twitterdb.py, tweetsSentiments.py
+Mainly two python scripts (twitterdb.py,tweetsSentiments.py) , Run first twitterdb.py then tweetsSentiments.py 
 
     - twitterdb.py -Fetches tweets from twitter based on hashtags and stores them into database
     - tweetsSentiments.py -Fetches tweets from Database and calculate Sentiments
