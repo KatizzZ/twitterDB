@@ -4,7 +4,9 @@ Needs few things before this to get started -
     A Twitter account and API credentials
     A MySQL database
     The Tweepy and mysql-connector Python Libraries
+    
 Run twitter.py file an PythonRich IDE - 
+
 1. Account at https://developer.twitter.com then create an app to access these four keys,
    - consumer_key
    - consumer_secret
