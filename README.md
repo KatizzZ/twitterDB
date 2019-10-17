@@ -1,9 +1,15 @@
 # twitterDB
-Fetches tweets from twitter based on hashtags and stores them into database
-Needs few things before this to get started - 
-    A Twitter account and API credentials
-    A MySQL database
-    The Tweepy and mysql-connector Python Libraries
+
+Mainly two python scripts twitterdb.py, tweetsSentiments.py
+
+    - twitterdb.py -Fetches tweets from twitter based on hashtags and stores them into database
+    - tweetsSentiments.py -Fetches tweets from Database and calculate Sentiments
+
+Need few things before this to get started
+
+    - A Twitter account and API credentials
+    - A MySQL database
+    - The Tweepy and mysql-connector Python Libraries
     
 Run twitter.py file an PythonRich IDE - 
 
